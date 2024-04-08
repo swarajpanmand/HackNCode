@@ -1,0 +1,33 @@
+{
+  "scripts": {
+    "start": "nodemon express.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.8",
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "jsdom": "^24.0.0",
+    "nodeman": "^1.1.2",
+    "nodemon": "^3.0.3",
+    "passport": "^0.7.0",
+    "passport-local": "^1.0.0",
+    "rimraf": "^3.0.2",
+    "transformers": "^3.1.0"
+  },
+  "name": "black",
+  "version": "1.0.0",
+  "main": "express.js",
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swarajpanmand/black.git"
+  },
+  "bugs": {
+    "url": "https://github.com/swarajpanmand/black/issues"
+  },
+  "homepage": "https://github.com/swarajpanmand/black#readme"
+}

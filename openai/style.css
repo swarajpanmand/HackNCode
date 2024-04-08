@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+
+    position: absolute                                                                                  ;
+    left: 100px;
+    top:0%;
+    width: 1750px;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+}
+
+.conversation {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+    height: 650px;
+    overflow-y: auto;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.send-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.send-button:hover {
+    background-color: #0056b3;
+}
+.eduplay {
+    position: absolute;
+    left: 0PX;
+    top: 40%;
+    transform: translateY(-50%) rotate(-90deg);
+    transform-origin: left top;
+    font-family: monospace;
+    font-size: xx-large;
+    font-weight: bold;
+    white-space: nowrap; /* Prevent line breaks */
+    font-size: XX-large;
+    font-weight: 900;
+    width: 1000px;
+    background-color: #a6a5a7;
+    color: white;
+    
+}
+
+
+
+.rectangle{
+
+    width: 82px;
+    height: 927px;
+    left: 0px;
+    background-color: #a6a5a7;
+}
+

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Story Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="eduplay">
+        <p>  |        E       D       U        P       L       A       Y       </p>
+    </div>
+    <div class ="rectangle"></div>
+    <div class="container">
+        <h1 class="title">STORY GENERATOR</h1>
+
+        <div id="conversation" class="conversation"></div>
+        <input type="text" id="userInput" class="input-field" placeholder="Type your response...">
+        <button class="send-button" onclick="sendMessage()">Send</button>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="script.js"></script>
+    <script src="server.js"></script>
+</body>
+</html>
+
